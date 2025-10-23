@@ -24,7 +24,7 @@ public class EffectiveTwoSum {
             if (numToIndex.containsKey(complement)) {
                 return new int[]{numToIndex.get(complement), i};
             }
-            //при первом проходе 7 попадает в мапу
+            //при первом проходе 2 попадает в мапу
             numToIndex.put(nums[i], i);
         }
         return new int[0];
