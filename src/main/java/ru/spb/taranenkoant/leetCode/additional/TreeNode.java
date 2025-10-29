@@ -6,9 +6,9 @@ package ru.spb.taranenkoant.leetCode.additional;
  * {@code @createDate:} 28.10.2025
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
     public TreeNode() {
     }
