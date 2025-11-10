@@ -29,4 +29,15 @@ public class Task217ContainsDuplicate {
         }
         return false;
     }
+
+    public boolean effectiveContainsDuplicate2(int[] nums) {
+        if (nums.length <= 1) return false;
+        Set<Integer> set = new HashSet<>(nums.length);
+        for (int num : nums) {
+            if (!set.add(num)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
